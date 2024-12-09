@@ -1,5 +1,31 @@
-.pgstyle {color: hsl(38, 98%, 16%);background-color: rgb(216, 216, 113);}
+* {
+    outline: 0px solid red;
+    padding: 0px;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  
+.pgstyle {
 
-.ulstyle {font-size: 28px;color:blue;}
+    color: hsl(38, 98%, 16%);
+    background-color: rgb(216, 216, 113);
+    }
 
-h1 {font-size: 36px;}
+.hdrstyle1 {
+    border: 0;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    /* height: 100px; 
+    width: auto;*/
+    background-color: rgb(103, 236, 147);
+    font-size: 36px;
+    }
+
+.ulstyle {
+    border: 0;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 60px;
+    font-size: 28px;color:blue;
+    }

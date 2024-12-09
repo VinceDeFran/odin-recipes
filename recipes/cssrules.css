@@ -1,11 +1,37 @@
+* {
+    outline: 0px solid red;
+    padding: 0px;
+    margin: 5px;
+    box-sizing: border-box;
+  }
+  
 .pgstyle {color: hsl(0, 92%, 33%);background-color:rgb(12, 153, 33);}
 
-.olstyle {font-size: 32px;}
+.hdrstyle1 {
+    border: 0;
+    margin: 0;
+    padding: 10px;
+    padding-left: 20px;
+    /* height: 100px; 
+    width: auto;*/
+    background-color: white;
+    font-size: 48px;
+    }
 
-h1 {font-size: 48px;background-color: white;}
+.olstyle  {
+    border: 0;
+    margin: 5px;
+    padding: 10px;
+    padding-left: 60px;
+    font-size: 32px;
+    }
 
 h3 {font-size: 40px;}
 
 figcaption {font-size: 18px;}
 
-p {font-size: 24px;}
+p {
+    padding: 20px;
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 28px;}
