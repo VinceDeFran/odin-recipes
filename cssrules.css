@@ -1,5 +1,5 @@
 * {
-    outline: 0px solid red;
+    /* outline: 0px solid red; */
     padding: 0px;
     margin: 5px;
     box-sizing: border-box;
@@ -28,4 +28,13 @@
     padding: 10px;
     padding-left: 60px;
     font-size: 28px;color:blue;
+    }
+
+.listinline {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    background-color: coral;
+    padding: 5px 20px;
+    margin: 0 auto;
     }
